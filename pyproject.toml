@@ -4,6 +4,9 @@ version = "0.1.0"
 description = "A simple text summarizer agent, using sumy"
 authors = ["Aggelos Kyriakoulis <angelokir86@gmail.com>"]
 readme = "README.md"
+packages = [
+  {include = "simple_chat_agent", from="."}
+]
 
 [tool.poetry.dependencies]
 python = ">=3.10,<=3.13"
