@@ -1,7 +1,14 @@
 [
     {
         "name": "deployment_1",
-        "module": {"name": "summarizer_agent"},
+        "module": {"name": "summarizer_agent",
+        "description": "Module Template",
+        "parameters": "{tool_name: str, tool_input_data: str}",
+        "module_type": "agent",
+        "module_version": "0.1.0",
+        "module_entrypoint": "run.py",
+        "execution_type": "package"
+        },  
         "node": {"ip": "localhost"},
         "config": {
             "config_name": "config_1",
