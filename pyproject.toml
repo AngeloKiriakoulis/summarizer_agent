@@ -1,14 +1,16 @@
 [tool.poetry]
-name = "module-template"
+name = "summarizer_agent"
 version = "0.1.0"
-description = ""
-authors = ["Richard Blythman <richardblythman@gmail.com>"]
+description = "A simple text summarizer agent, using sumy"
+authors = ["Aggelos Kyriakoulis <angelokir86@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.10,<=3.13"
 naptha-sdk = {git = "https://github.com/NapthaAI/naptha-sdk.git"}
 python-dotenv = "^1.0.1"
+sumy = "^0.11.0"
+numpy = "^2.2.2"
 
 [build-system]
 requires = ["poetry-core"]
