@@ -1,19 +1,16 @@
 [
     {
         "name": "deployment_1",
-        "module": {"name": "summarizer_agent",
-        "description": "Module Template",
+        "module": {
+        "name": "summarizer_agent",
+        "description": "A simple text summarizer agent, using sumy",
         "parameters": "{tool_name: str, tool_input_data: str}",
         "module_type": "agent",
         "module_version": "v0.1",
         "module_entrypoint": "run.py",
         "execution_type": "package"
         },  
-        "node": {
-            "ip": "node.naptha.ai",
-            "server_type": "http",
-            "http_port": 7001
-          },
+        "node": {"ip": "localhost"},
         "config": {
             "config_name": "config_1",
             "llm_config": {"config_name": "model_1"},
