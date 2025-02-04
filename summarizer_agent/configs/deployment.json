@@ -5,7 +5,7 @@
         "description": "Module Template",
         "parameters": "{tool_name: str, tool_input_data: str}",
         "module_type": "agent",
-        "module_version": "v0.1.0",
+        "module_version": "v0.1",
         "module_entrypoint": "run.py",
         "execution_type": "package"
         },  
